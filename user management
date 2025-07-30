@@ -1,6 +1,6 @@
 # User management in C
-This is a simple console-based user management written in c language. It allows user to register with a name and password (password is masked during input), 
-and later login using their credintials.
+This is a simple console-based user management written in c language. It allows user to register(maximum 10 users can register)
+with a name and password (password is masked during input), and later login using their credintials.
 
 ## Features
 1. Register with a username and password
