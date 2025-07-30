@@ -1,0 +1,34 @@
+# User management in C
+This is a simple console-based user management written in c language. It allows user to register with a name and password (password is masked during input), 
+and later login using their credintials.
+
+## Features
+1. Register with a username and password
+2. Password masked while typing
+3. Login using stored credintials
+
+## How to compile and run
+### using GCC :
+gcc management.c
+./a.exe
+
+# Output
+Welcome to user management.
+1. Register
+2. Login
+3. Exit
+Select an option : 1
+Regitser a new user.
+Enter a new user : aman
+Enter password : ***    
+Registration successful.
+Welcome to user management.
+1. Register
+2. Login
+3. Exit
+Select an option : 2
+Enter username : 
+aman
+Enter password : ***
+Login successful!
+ Welcome, aman!
